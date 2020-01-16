@@ -19,7 +19,7 @@
 
     &__content{
 
-        @include absCenter;
+        @include absCenter;  
 
         width: 75%;
         display: table;
@@ -34,7 +34,6 @@
 
     &__left {
         width: 34%; 
-        
         display: table-cell;
     }
 
@@ -82,5 +81,80 @@
             color: $lGreen;
         }
     }
+
+    @include respond(phone) {
+    
+        &__content{
+    
+            @include absCenter;  
+    
+            width: 100%;
+            height: 0;
+            
+        }
+
+        &__left {
+            width: 100%;
+            display: flex;
+        }
+    
+    
+        &__right {
+            width: 100%;
+            padding: 1rem 3rem;
+            display: inline-block;
+        }
+    
+        
+    
+        &__text{
+            font-size: 1rem;
+            margin-bottom: 4rem;
+            column-gap: 2rem;
+        }
+    
+        &__close{
+            &:link, &:visited {
+                font-size: 2rem;
+                top: 2rem;
+                right: 2rem;
+            }        
+        }
+    }
+
+
+    /*@include respond(tab-port) {
+        &__content{
+    
+            @include absCenter;  
+    
+            width: 100%;
+            height: 0;
+        }
+    
+        &__right {
+            width: 40%;
+            padding: 1rem 3rem;
+        }
+    
+        
+    
+        &__text{
+            font-size: .8rem;
+            margin-bottom: 2rem;
+            column-gap: 2rem;
+           
+        }
+    
+        &__close{
+            &:link, &:visited {
+                font-size: 2rem;
+                top: 2rem;
+                right: 2rem;
+            }        
+        }
+    }
+
+*/
 
 }
