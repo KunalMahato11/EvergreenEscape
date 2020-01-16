@@ -315,7 +315,7 @@ body {
   margin-top: -20vh; }
   @media only screen and (max-width: 56.25em) {
     .section-about {
-      paddding: 20rem 0; } }
+      padding: 20rem 0; } }
 
 .section-features {
   padding: 20rem 0;
@@ -327,7 +327,7 @@ body {
     transform: skewY(7deg); }
   @media only screen and (max-width: 56.25em) {
     .section-features {
-      paddding: 10rem 0; } }
+      padding: 10rem 0; } }
 
 .section-tours {
   background-color: #f7f7f7;
@@ -335,21 +335,21 @@ body {
   margin-top: -10rem; }
   @media only screen and (max-width: 56.25em) {
     .section-tours {
-      paddding: 20rem 0 10rem 0; } }
+      padding: 20rem 0 10rem 0; } }
 
 .section-stories {
   padding: 15rem 0;
   position: relative; }
   @media only screen and (max-width: 56.25em) {
     .section-stories {
-      paddding: 10rem 0; } }
+      padding: 10rem 0; } }
 
 .section-book {
   padding: 15rem 0;
   background-image: linear-gradient(to right bottom, #7ed56f, #55c57a); }
   @media only screen and (max-width: 56.25em) {
     .section-book {
-      paddding: 10rem 0; } }
+      padding: 10rem 0; } }
 
 .book {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
