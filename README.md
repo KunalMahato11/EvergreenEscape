@@ -1,9 +1,12 @@
-# EvergreenEscape
+## EvergreenEscape 🏃
 
 ---
-* Fictional Website for booking tours
+Fictional Website for booking tours
 
-### Technologies used
+👉 [Take a Look](https://kunalmahato11.github.io/EvergreenEscape/)
+
+
+### Made With 🛠️
 * HTML5
 * CSS3
 * SASS
