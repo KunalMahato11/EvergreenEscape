@@ -9,4 +9,5 @@ Fictional Website for booking tours
 * HTML5
 * CSS3
 * SASS
+* FLEXBOX
 
